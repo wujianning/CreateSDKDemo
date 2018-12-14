@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="createsdkdemo.wjn.com.mylibrary">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application>
         <activity android:name=".activity.OtherActivity" />
         <activity android:name=".activity.OtherActivitys"></activity>
