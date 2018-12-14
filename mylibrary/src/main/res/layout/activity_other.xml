@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_other_backtextview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center|left"
+        android:layout_margin="10dp"
+        android:background="#FF9922"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:text="返回"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="欢迎来到ARR,我是主页面"/>
+
+    <TextView
+        android:id="@+id/activity_other_textview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="进入我的其他页面"
+        android:textColor="#FFFFFF"
+        android:background="#FF7700"/>
+
+</LinearLayout>
